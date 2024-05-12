@@ -1,3 +1,4 @@
+```yaml
 name: DMP 2024 Project Template
 description: List a new project for Dedicated Mentoring Program (DMP) 2024 
 title: "[DMP 2024]: "
@@ -10,8 +11,15 @@ body:
     attributes:
       label: Ticket Contents
       value: |
-        ## Description
-        [Provide a brief description of the feature, including why it is needed and what it will accomplish.]
+        Our project aims to develop a user-friendly web application for visualizing meteorological
+        data sourced from the India Water Portal. Leveraging Next.js for the frontend and Node.js
+        for the backend, we will create a dynamic platform where users can explore climate
+        trends across Indian states and districts from 1901 to 2002. By integrating MySQL for data
+        storage and employing visualization frameworks like D3.js, we'll empower users to
+        generate interactive charts depicting parameters such as precipitation, temperature, and
+        evapotranspiration. Our solution will cater to both academic researchers and
+        practitioners, offering valuable insights into historical climate patterns and facilitating
+        informed decision-making
 
   - type: textarea
     id: ticket-goals
@@ -19,14 +27,14 @@ body:
       required: true
     attributes:
       label: Goals & Mid-Point Milestone
-      description: List the goals of the feature. Please add the goals that must be achieved by Mid-point check-in i.e 1.5 months into the coding period.
+      description: 
       value: |
         ## Goals
-        - [ ] [Goal 1]
-        - [ ] [Goal 2]
-        - [ ] [Goal 3]
-        - [ ] [Goal 4]
-        - [ ] [Goals Achieved By Mid-point Milestone]
+        - [ ] Develop a mobile-responsive webpage template.
+        - [ ] Create a working webpage that pulls data from the database.
+        - [ ] Calculate and display all numeric values.
+        - [ ] Plot basic charts for visualization.
+        - [ ] Achieve all goals by the mid-point milestone.
 
   - type: textarea
     id: ticket-setup
@@ -249,6 +257,74 @@ body:
         - Maintenance
         - Mobile
         - Performance Improvement
+        - Prettier
+        - Python
+        - Question
+        - React
+        - React Native
+        - Redux
+        - RESTful APIs
+        - Ruby
+        - Ruby on Rails
+        - Rust
+        - Scala
+        - Security
+        - Selenium
+        - SEO
+        - Serverless
+        - Solidity
+        - Spring Boot
+        - SQL
+        - Swagger
+        - Tailwind CSS
+        - Test
+        - Testing Library
+        - Three.js
+        - TypeScript
+        - UI/UX/Design
+        - Virtual Reality
+        - Vue.js
+        - WebSockets
+        - Webpack
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: ticket-mentors
+    attributes:
+      label: Mentor(s)
+      description: Please tag relevant mentors for the ticket
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ticket-category
+    attributes: 
+      label: Category
+      description: Choose the categories that best describe your ticket
+      multiple: true
+      options:
+        - API
+        - Analytics
+        - Accessibility
+        - Backend
+        - Breaking Change
+        - Beginner Friendly
+        - Configuration
+        - CI/CD
+        - Database
+        - Data Science
+        - Deprecation
+        - Documentation
+        - Delpoyment
+        - Frontend
+        - Internationalization
+        - Localization
+        - Machine Learning
+        - Maintenance
+        - Mobile
+        - Performance Improvement
         - Question
         - Refactoring
         - Research
@@ -260,5 +336,4 @@ body:
         - Other
     validations:
       required: true
-
-  
+       
