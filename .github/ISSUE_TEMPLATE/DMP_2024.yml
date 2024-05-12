@@ -11,7 +11,15 @@ body:
       label: Ticket Contents
       value: |
         ## Description
-        [Provide a brief description of the feature, including why it is needed and what it will accomplish.]
+        [Our project aims to develop a user-friendly web application for visualizing meteorological
+data sourced from the India Water Portal. Leveraging Next.js for the frontend and Node.js
+for the backend, we will create a dynamic platform where users can explore climate
+trends across Indian states and districts from 1901 to 2002. By integrating MySQL for data
+storage and employing visualization frameworks like D3.js, we'll empower users to
+generate interactive charts depicting parameters such as precipitation, temperature, and
+evapotranspiration. Our solution will cater to both academic researchers and
+practitioners, offering valuable insights into historical climate patterns and facilitating
+informed decision-making]
 
   - type: textarea
     id: ticket-goals
